@@ -12,6 +12,17 @@ This project is a **deep learning-based multi-class skin disease classification 
 The model takes an input image and predicts the most probable skin disease among **37 different classes**.
 
 > 🎯 I was responsible for building the **complete end-to-end deep learning model**, including architecture design, training, fine-tuning, evaluation, and deployment.
+> 
+>### Project Structure
+├── dataset/
+├── models/
+├── notebooks/
+├── app/
+├── training.ipynb
+├── preprocessing.py
+├── Dockerfile
+├── requirements.txt
+└── README.md
 
 ---
 
@@ -77,7 +88,7 @@ I independently developed the **entire machine learning model lifecycle**, inclu
 ---
 
 ## 📈 Results
-- Strong performance on 37-class classification task
+- Strong performance on 15-class classification task
 - Improved generalization using augmentation and fine-tuning
 - Balanced predictions across majority and minority classes
 ## 📊 Confusion Matrix
@@ -109,15 +120,3 @@ The application was containerized using Docker to ensure portability and reprodu
 docker build -t skin-disease-app .
 docker run -p 7860:7860 skin-disease-app
 
----
-
-### Project Structure
-├── dataset/
-├── models/
-├── notebooks/
-├── app/
-├── training.ipynb
-├── preprocessing.py
-├── Dockerfile
-├── requirements.txt
-└── README.md
