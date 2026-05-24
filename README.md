@@ -14,22 +14,7 @@ The model takes an input image and predicts the most probable skin disease among
 > 🎯 I was responsible for building the **complete end-to-end deep learning model**, including architecture design, training, fine-tuning, evaluation, and deployment.
 
 ---
-## 📦 Project Structure
 
-skin-disease-project/
-├── dataset/
-├── models/
-├── notebooks/
-├── app/
-├── assets/
-│ ├── CM.png
-│ └── Screenshot 2025-06-26 202817.png
-├── training.ipynb
-├── preprocessing.py
-├── Dockerfile
-├── requirements.txt
-└── README.md
----
 ## 👨‍💻 My Role
 I independently developed the **entire machine learning model lifecycle**, including:
 
@@ -122,5 +107,23 @@ The application was containerized using Docker to ensure portability and reprodu
 #### Build Docker Image:
 ```bash
 docker build -t skin-disease-app .
+
+
+## 📦 Project Structure
+
+skin-disease-project/
+├── dataset/
+├── models/
+├── notebooks/
+├── app/
+├── assets/
+│ ├── CM.png
+│ └── Screenshot 2025-06-26 202817.png
+├── training.ipynb
+├── preprocessing.py
+├── Dockerfile
+├── requirements.txt
+└── README.md
+
 docker run -p 7860:7860 skin-disease-app
 
