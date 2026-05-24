@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+tensorflow
+pillow
+numpy
+requests
+gdown
+python-multipart
+tqdm
