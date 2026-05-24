@@ -80,8 +80,15 @@ I independently developed the **entire machine learning model lifecycle**, inclu
 - Strong performance on 37-class classification task
 - Improved generalization using augmentation and fine-tuning
 - Balanced predictions across majority and minority classes
+## 📊 Confusion Matrix
 
-> 📌 Add your final metrics here (Accuracy, Precision, Recall, F1-score)
+![Confusion Matrix](assets/CM.png)
+
+---
+
+## 🖥️ Model / App Preview
+
+![Model Screenshot](assets/Screenshot%202025-06-26%20202817.png)
 
 ---
 
