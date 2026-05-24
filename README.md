@@ -107,23 +107,4 @@ The application was containerized using Docker to ensure portability and reprodu
 #### Build Docker Image:
 ```bash
 docker build -t skin-disease-app .
-
-
-## 📦 Project Structure
-
-skin-disease-project/
-├── dataset/
-├── models/
-├── notebooks/
-├── app/
-├── assets/
-│ ├── CM.png
-│ └── Screenshot 2025-06-26 202817.png
-├── training.ipynb
-├── preprocessing.py
-├── Dockerfile
-├── requirements.txt
-└── README.md
-
 docker run -p 7860:7860 skin-disease-app
-
