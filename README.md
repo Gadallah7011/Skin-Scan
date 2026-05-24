@@ -19,7 +19,7 @@ The model takes an input image and predicts the most probable skin disease among
 I independently developed the **entire machine learning model lifecycle**, including:
 
 - Designing the deep learning architecture
-- Handling large-scale multi-class classification (37 classes)
+- Handling large-scale multi-class classification (15 classes)
 - Data preprocessing and augmentation
 - Training and fine-tuning the model
 - Evaluating performance using multiple metrics
@@ -33,17 +33,22 @@ I independently developed the **entire machine learning model lifecycle**, inclu
 - 🏷️ 15 skin disease classes
 -https://www.kaggle.com/datasets/mohamedjadallah/skin-disease-image-dataset
 ### Includes conditions such as:
-- Acne
-- Eczema
-- Vitiligo
-- Chickenpox
-- Monkeypox
-- Basal Cell Carcinoma
-- Melanocytic Nevi
-- Rosacea
-- Lupus
-- Vascular Lesions
-- and more dermatological conditions
+•	1st degree burns
+•	3rd degree burns
+•	Melanocytic nevi
+•	Basal cell carcinoma
+•	Chickenpox
+•	Cowpox
+•	Unknown
+•	Vascular lesion
+•	Eczema
+•	Vitiligo
+•	Healthy
+•	HFMD
+•	Measles
+•	Acne
+•	Monkeypox
+
 
 ---
 
@@ -59,8 +64,8 @@ I independently developed the **entire machine learning model lifecycle**, inclu
 ## ⚙️ Training Details
 - Optimizer: Adam
 - Loss Function: Categorical Crossentropy
-- Batch Size: `YOUR_BATCH_SIZE`
-- Epochs: `YOUR_EPOCHS`
+- Batch Size: `32`
+- Epochs: `10` Then '30'
 
 ### Techniques Used:
 - Data Augmentation
@@ -85,7 +90,7 @@ I independently developed the **entire machine learning model lifecycle**, inclu
 ### 🤗 Hugging Face Spaces
 The model was deployed using **Hugging Face Spaces**, allowing real-time inference through a simple web interface.
 
-👉 Live Demo: `ADD YOUR HUGGING FACE LINK HERE`
+https://mgagallah-api.hf.space/docs
 
 ---
 
@@ -97,7 +102,9 @@ The application was containerized using Docker to ensure portability and reprodu
 docker build -t skin-disease-app .
 docker run -p 7860:7860 skin-disease-app
 
-Project Structure
+---
+
+### Project Structure
 ├── dataset/
 ├── models/
 ├── notebooks/
