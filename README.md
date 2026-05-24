@@ -13,17 +13,19 @@ The model takes an input image and predicts the most probable skin disease among
 
 > 🎯 I was responsible for building the **complete end-to-end deep learning model**, including architecture design, training, fine-tuning, evaluation, and deployment.
 > 
->### Project Structure
+### Project Structure
 ├── dataset/
 ├── models/
 ├── notebooks/
 ├── app/
+├── assets/
+│   ├── CM.png
+│   └── Screenshot 2025-06-26 202817.png
 ├── training.ipynb
 ├── preprocessing.py
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
-
 ---
 
 ## 👨‍💻 My Role
